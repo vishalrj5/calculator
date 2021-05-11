@@ -10,3 +10,6 @@ function evaluateExpression(){
 function clearBox(){
     inpt.value=""
 }
+function backk(){
+    inpt.value=inpt.value.slice(0,-1)
+}
